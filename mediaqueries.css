@@ -5,4 +5,10 @@
     #hamburger-nav{
         display:flex;
     }
+    .section_pic-container{
+        margin-left: 10px;
+    }
+    #profile{
+        margin: 2px;
+    }
 }
