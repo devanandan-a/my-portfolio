@@ -17,7 +17,7 @@ html{
 p{
     color: rgb(85 , 85 , 85);
 }
-/TRANSITION/
+
 
 a,.btn{
     transition:300ms ease;
@@ -267,4 +267,39 @@ section{
  .btn-container{
     gap: 1rem;
  }
+
+/* Active link styling for navigation */
+.nav-links a.active,
+.menu-links a.active{
+    color: rgb(20,100,220);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Make site sections a bit more readable on small screens */
+.site-section{
+    padding: 4rem 0;
+}
+
+/* Projects grid */
+.projects-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.project-card{
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+.project-card h3{
+    margin-bottom: 0.5rem;
+}
+.project-card p{
+    margin-bottom: 0.75rem;
+    color: rgb(85,85,85);
+}
 
